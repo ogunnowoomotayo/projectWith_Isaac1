@@ -6,7 +6,7 @@
 }
 
 .navbar{
-    background: #131313;
+    background: #ffffff;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -61,7 +61,7 @@
 }
 
 .navbar__links{
-     color: #fff;
+     color: #141414;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -186,7 +186,7 @@
 
 /* Hero Section CSS */
 .main{
-    background-color: #141414;
+    background-color: #ffffff;
 }
 
 .main__container{
@@ -196,7 +196,9 @@
     justify-content: center;
     margin: 0 auto;
     height: 90vh;
-    background-color: #141414;
+    /* background-color: #141414; */
+    background-color: #ffffff;
+
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -328,7 +330,9 @@
 }
 /* Service Section CSS */
 .services{
-    background: #141414;
+    /* background: #141414; */
+    background-color: #ffffff;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -439,7 +443,8 @@
 
 /* footer section */
 .footer__container{
-    background-color: #141414;
+    /* background-color: #141414; */
+    background-color: #ffffff;
     padding: 5rem 0;
     display: flex;
     flex-direction: column;
@@ -447,7 +452,7 @@
     align-items: center;
 }
 .footer__logo{
-    color: #fff;
+    color: #141414;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -476,10 +481,10 @@
 }
 
 .footer__link--items > h2{
-    color: #fff;
+    color: #141414;
 }
 .footer__link--items a{
-    color: #fff;
+    color: #141414;
     text-decoration: none;
     margin-bottom: 0.5rem;
 }
