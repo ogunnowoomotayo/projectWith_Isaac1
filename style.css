@@ -85,8 +85,8 @@
     align-items: center;
     text-decoration: none;
     padding: 10px 20px;
-    height: 90px;
-    width: 100px;
+    height: 40px;
+    width: 150px;
     border: none;
     outline: none;
     border-radius: 4px;
@@ -126,10 +126,8 @@
         transition: all 0.5s ease;
         height: 50vh;
         z-index: -1;
-        background: #131313;
     }
     .navbar__meun.active{
-        background: #131313;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -187,7 +185,7 @@
 
 /* Hero Section CSS */
 .main{
-    background-color: #ffffff;
+    background-color: #141414;
 }
 
 .main__container{
@@ -197,9 +195,8 @@
     justify-content: center;
     margin: 0 auto;
     height: 90vh;
-    /* background-color: #141414; */
-    background-color: #ffffff;
-
+    background-color: #141414;
+    /* background-color: #ffffff; */
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -333,7 +330,6 @@
 .services{
     /* background: #141414; */
     background-color: #ffffff;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -359,6 +355,8 @@
     -moz-text-fill-color: transparent;
 }
 
+
+
 .services__container{
     display: flex;
     justify-content: center;
@@ -374,7 +372,7 @@
     rgba(0, 0, 0, 0)0%,
     rgba(17,17,17,0.6)100%
     ),
-    url('/images/1-girl-wearing-vr-goggle-headset.png');
+    url('/1-girl-wearing-vr-goggle-headset.png');
     background-size: cover;
     position: relative;
     color: #fff;
@@ -385,7 +383,7 @@
     rgba(0, 0, 0, 0)0%,
     rgba(17, 17, 17, 0.6)100%
     ),
-    url('/images/pharmacist-norman-rockwell.png')
+    url('/pharmacist-norman-rockwell.png')
 }
 
 .services h2{
@@ -444,7 +442,7 @@
 
 /* footer section */
 .footer__container{
-    /* background-color: #141414; */
+    background-color: #141414;
     background-color: #ffffff;
     padding: 5rem 0;
     display: flex;
